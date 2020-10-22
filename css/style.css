@@ -1,0 +1,18 @@
+.carousel-item {
+    height: 450px;
+}
+
+#icons .fa {
+    font-size: 50px;
+}
+
+#question {
+    background-image: url(../img/lights.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+}
