@@ -5,8 +5,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="./css/style.css">
-
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
     <script src="https://kit.fontawesome.com/ed2c1c378f.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
@@ -18,7 +19,7 @@
 <body>
     <!-- NAVBAR -->
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" uk-sticky="top: 500; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
         <div class="container">
             <a class="navbar-brand" href="index.html">Glozzom</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -155,11 +156,91 @@
     <div class="dark-overlay">
     <div class="container">
         <div class="mt-5">
-            <i class="fas fa-play"></i>
+            <a href="#" class="text-light">
+                <i class="fas fa-play pb-3"></i>
+            </a>
             <h1>See What We Do</h1>
         </div>
       </div>
     </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="py-4" uk-lightbox>
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <h2>Photo Gallery</h2>
+                <p>Check out our photos</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 col-md-6">
+                <a href="./img/tree.jpg">
+                    <img src="./img/tree.jpg" class="img-fluid" alt="tree">
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-6">
+                <a href="./img/person3.jpg">
+                    <img src="./img/person3.jpg" class="img-fluid" alt="tree">
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-6">
+                <a href="./img/tree.jpg">
+                    <img src="./img/tree.jpg" class="img-fluid" alt="tree">
+                </a>
+            </div>
+        </div>
+
+        <div class="row pt-0 pt-md-3">
+            <div class="col-lg-4 col-sm-12 col-md-6">
+                <a href="./img/person3.jpg">
+                    <img src="./img/person3.jpg" class="img-fluid" alt="tree">
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-6">
+                <a href="./img/tree.jpg">
+                    <img src="./img/tree.jpg" class="img-fluid" alt="tree">
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-6">
+                <a href="./img/person3.jpg">
+                    <img src="./img/person3.jpg" class="img-fluid" alt="tree">
+                </a>
+            </div>
+        </div>
+    </div>
+</section
+
+<!-- Newsletter -->
+<section id="newsletter">
+    <div class="jumbotron jumbotron-fluid bg-dark text-center mb-0 py-5">
+        <div class="container">
+            <div>
+                <h1>Signup For Our Newsletter</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor sequi eligendi dolorum fugit ipsum facere incidunt nihil blanditiis omnis adipisci sint id velit aspernatur excepturi amet, nemo error deserunt placeat.</p>
+
+                <form action="#" method="POST" class="form-inline justify-content-center">
+                    <input type="text" class="form-control m-1" placeholder="Enter Name">
+                    <input type="email" class="form-control m-1" placeholder="Enter Email" name="" id="">
+                    <input type="submit" class="btn btn-primary m-1">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+<section id="footer" class="text-center pt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="lead">Copyright &copy; 2020</p>
+            </div>
+        </div>
+    </div>
+
 </section>
 
 
@@ -178,16 +259,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-    <!-- Optional JavaScript; choose one of the two! -->
+        <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -202,6 +274,9 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     -->
+
+    <script src="./js/uikit.min.js"></script>
+    <script src="./js/uikit-icons.min.js"></script>
 </body>
 
 </html>

@@ -5,10 +5,19 @@
 }
 
 .carousel {
+
+    h2 {
+        color: white;
+    }
+
     height: 450px;
 
     .carousel-item {
         height: 450px;
+
+        img {
+            background-size: cover;
+        }
     }
 }
 
@@ -36,6 +45,10 @@
         height: 100%;
 
     }
+
+    h1 {
+        color: white;
+    }
 }
 
 .jumbotron {
@@ -62,8 +75,30 @@
     }
 
     .fas {
-        font-size: 30px;
+        font-size: 50px;
     }
+
+    h1 {
+        color: white;
+    }
+}
+
+#gallery {
+    img {
+        width: 300px;
+    }
+}
+
+#newsletter {
+    h1,p {
+        color: white;
+    }
+}
+
+#footer {
+    margin-top: 0;
+    background: #000;
+    color: white;
 }
 
 @media(max-width: 767px) {   
@@ -73,6 +108,19 @@
 
     #question{
         min-height: 300px;
+    }
+
+    #gallery {
+        img {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+}
+
+@media(max-width: 575px) {
+    .carousel-caption {
+        height: 10%;
     }
 }
 
@@ -87,8 +135,7 @@
 
     #info-area {
         .lorem {
-            justify-content: center;
+            text-align: center;
         }
     }
 }
-
