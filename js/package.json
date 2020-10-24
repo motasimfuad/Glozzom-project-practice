@@ -1,8 +1,12 @@
 {
-  "name": "glozzom-project-practice",
+  "name": "glozzom-practice",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "dev": "node-sass -o css scss/main.scss",
     "watch": "node-sass -w -o css scss/main.scss",
@@ -21,8 +25,5 @@
   "bugs": {
     "url": "https://github.com/motasimfuad/Glozzom-project-practice/issues"
   },
-  "homepage": "https://github.com/motasimfuad/Glozzom-project-practice#readme",
-  "devDependencies": {
-    "node-sass": "^4.14.1"
-  }
+  "homepage": "https://github.com/motasimfuad/Glozzom-project-practice#readme"
 }
