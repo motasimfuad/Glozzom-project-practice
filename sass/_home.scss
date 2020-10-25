@@ -1,0 +1,142 @@
+.navbar {
+    .nav-item {
+     padding-left: 1rem; 
+    }
+}
+
+.carousel {
+
+    h2 {
+        color: white;
+    }
+
+    height: 450px;
+
+    .carousel-item {
+        height: 450px;
+
+        img {
+            background-size: cover;
+        }
+    }
+}
+
+#icons { 
+    .fa {
+        font-size: 50px;
+    }
+}
+
+#question {
+    position: relative;
+    background-image: url(../img/lights.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    
+
+    .dark-overlay {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    h1 {
+        color: white;
+    }
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+#video-area {
+    position: relative;
+    background-image: url(../img/media.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    
+
+    .dark-overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .fas {
+        font-size: 50px;
+    }
+
+    h1 {
+        color: white;
+    }
+}
+
+#gallery {
+    img {
+        width: 300px;
+    }
+}
+
+#newsletter {
+    h1,p {
+        color: white;
+    }
+}
+
+#footer {
+    margin-top: 0;
+    background: #000;
+    color: white;
+}
+
+@media(max-width: 767px) {   
+    .nav-item {
+        padding-left: 0;
+    }
+
+    #question{
+        min-height: 300px;
+    }
+
+    #gallery {
+        img {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+}
+
+@media(max-width: 575px) {
+    .carousel-caption {
+        height: 10%;
+    }
+}
+
+@media(max-width:480px) {
+    .carousel {
+        height: 300px;
+    
+        .carousel-item {
+            height: 300px;
+        }
+    }
+
+    #info-area {
+        .lorem {
+            text-align: center;
+        }
+    }
+}
+

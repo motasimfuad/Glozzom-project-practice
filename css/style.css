@@ -1,32 +1,3 @@
-#page-header {
-  background: url(../img/image1.jpg);
-  background-size: cover; }
-  #page-header h1, #page-header p {
-    color: white; }
-
-#details img {
-  border-radius: 5000%; }
-
-#boxes {
-  color: white; }
-  #boxes h4 {
-    color: white; }
-  #boxes .fa {
-    font-size: 35px; }
-  #boxes .card {
-    padding-bottom: 20px;
-    border: 0; }
-
-#testimonial {
-  color: white; }
-  #testimonial h2, #testimonial p {
-    color: white; }
-  #testimonial .slick-prev::before,
-  #testimonial .slick-next::before {
-    color: #fff; }
-  #testimonial a {
-    color: white; }
-
 .navbar .nav-item {
   padding-left: 1rem; }
 
@@ -112,3 +83,52 @@
       height: 300px; }
   #info-area .lorem {
     text-align: center; } }
+
+#page-header {
+  background: url(../img/image1.jpg);
+  background-size: cover; }
+  #page-header h1, #page-header p {
+    color: white; }
+
+#details img {
+  border-radius: 5000%; }
+
+#boxes {
+  color: white; }
+  #boxes h4 {
+    color: white; }
+  #boxes .fa {
+    font-size: 35px; }
+  #boxes .card {
+    padding-bottom: 20px;
+    border: 0; }
+
+#testimonial {
+  color: white; }
+  #testimonial h2, #testimonial p {
+    color: white; }
+  #testimonial .slick-prev::before,
+  #testimonial .slick-next::before {
+    color: #fff; }
+  #testimonial a {
+    color: white; }
+
+#PriceTable .card-header h3 {
+  color: #ffffff; }
+
+#faq h2 {
+  color: white; }
+
+#faq .card {
+  border: #000; }
+
+#faq .card-header {
+  background: #000; }
+  #faq .card-header .btn {
+    color: white; }
+
+#blog .red p {
+  color: white; }
+
+#blog .red .blockquote-footer {
+  color: #fff; }
