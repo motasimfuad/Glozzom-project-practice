@@ -53,7 +53,8 @@
     color: white; }
 
 #gallery img {
-  width: 300px; }
+  width: 300px;
+  height: 180px; }
 
 #newsletter h1, #newsletter p {
   color: white; }
@@ -131,4 +132,7 @@
   color: white; }
 
 #blog .red .blockquote-footer {
+  color: #fff; }
+
+#staff h2, #staff h3, #staff p {
   color: #fff; }
